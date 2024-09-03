@@ -123,10 +123,10 @@ const Contact = () => {
                   Cv raman global university , Bhubaneswar , India
                 </p>
               </div>
-              <div className="flex items-baseline gap-4">
+              {/* <div className="flex items-baseline gap-4">
                 <i class="fa-solid fa-phone text-[#6096ba]"></i>
                 <p className="text-[#597081] font-bold">(91+)7847066316</p>
-              </div>
+              </div> */}
               <div className="flex items-baseline gap-4">
                 <i class="fa-solid fa-envelope text-[#6096ba]"></i>
                 <p className="text-[#597081] font-bold">
