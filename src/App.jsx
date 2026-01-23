@@ -11,6 +11,7 @@ import Review from "./components/Review";
 import Contact from "./components/Contact";
 import Footer from "./components/Footer";
 import "react-toastify/dist/ReactToastify.css";
+import Notice from "./components/Notice";
 
 // export const URL = process.env.REACT_APP_SERVER_URL || "http://localhost:5000";
 export const URL = "http://localhost:5000";
@@ -18,6 +19,7 @@ export const URL = "http://localhost:5000";
 function App() {
   return (
     <div className="bg-[#f3f3ff]">
+      <Notice/>
       <Navbar />
       <Hero />
       <Benefits />

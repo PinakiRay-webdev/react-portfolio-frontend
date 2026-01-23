@@ -8,9 +8,28 @@ const Skills = () => {
         </h2>
         <div className="md:flex justify-between w-full h-fit">
           {/* skills section */}
-          <div className="grid lg:grid-cols-4 md:grid-cols-4 grid-cols-3 md:w-1/2 lg:gap-10 md:gap-10 sm:gap-14 gap-16
-          ">
-          <div className="flex flex-col items-center">
+          <div
+            className="grid lg:grid-cols-4 md:grid-cols-4 grid-cols-3 md:w-1/2 lg:gap-10 md:gap-10 sm:gap-14 gap-16
+          "
+          >
+            <div className="flex flex-col items-center">
+              <img
+                className="lg:w-12 md:w-14 sm:w-14 w-12"
+                src="assets/js-skill.png"
+                alt=""
+              />
+            </div>
+            <div className="flex flex-col items-center">
+              <img className="sm:w-20 w-16" src="assets/java.svg" alt="" />
+            </div>
+            <div className="flex flex-col items-center">
+              <img
+                className="lg:w-16 md:w-12 sm:w-12 w-10"
+                src="assets/typescript.svg"
+                alt=""
+              />
+            </div>
+            <div className="flex flex-col items-center">
               <img
                 className="lg:w-12 md:w-12 sm:w-12 w-10"
                 src="assets/html-skill.png"
@@ -26,13 +45,6 @@ const Skills = () => {
             </div>
             <div className="flex flex-col items-center">
               <img
-                className="lg:w-12 md:w-14 sm:w-14 w-12"
-                src="assets/js-skill.png"
-                alt=""
-              />
-            </div>
-            <div className="flex flex-col items-center">
-              <img
                 className="lg:w-16 md:w-16 sm:w-16 w-14"
                 src="assets/bootstrap-skill.png"
                 alt=""
@@ -42,13 +54,6 @@ const Skills = () => {
               <img
                 className="lg:w-12 md:w-12 sm:w-12 w-10"
                 src="assets/firebase-skill.png"
-                alt=""
-              />
-            </div>
-            <div className="flex flex-col items-center">
-              <img
-                className="lg:w-32 md:w-32 sm:w-32 w-28"
-                src="assets/oracle-skill.png"
                 alt=""
               />
             </div>
@@ -101,13 +106,37 @@ const Skills = () => {
                 alt=""
               />
             </div>
+            <div className="flex flex-col items-center">
+              <img
+                className="lg:w-16 md:w-12 sm:w-12 w-10"
+                src="assets/postman.png"
+                alt=""
+              />
+            </div>
+            <div className="flex flex-col items-center">
+              <img
+                className="lg:w-16 md:w-12 sm:w-12 w-10"
+                src="assets/restapi.png"
+                alt=""
+              />
+            </div>
           </div>
 
           {/* experience section */}
 
           <div className="md:mt-0 mt-16 md:w-fit font-bold lg:text-xl md:text-xl sm:text-base text-sm">
             <div className="flex gap-20 mb-16 md:justify-start justify-around">
-              <div className="text-green-600">Now</div>
+              <div className="text-green-600">2025</div>
+              <div>
+                <p>Mern stack developer</p>
+                <p className="lg:text-lg font-semibold text-gray-400 ">
+                  Codekerdos
+                </p>
+              </div>
+            </div>
+
+            <div className="flex gap-20 mb-16 md:justify-start justify-around">
+              <div className="text-green-600">2024</div>
               <div>
                 <p>Technical Researcher Intern</p>
                 <p className="lg:text-lg font-semibold text-gray-400 ">NISER</p>
@@ -122,10 +151,6 @@ const Skills = () => {
                   Immensphere
                 </p>
                 <br />
-                <p>Android developer intern</p>
-                <p className="lg:text-lg font-semibold text-gray-400 ">
-                  Teachnook
-                </p>
                 <br />
                 <p>ML programmer intern</p>
                 <p className="lg:text-lg font-semibold text-gray-400 ">

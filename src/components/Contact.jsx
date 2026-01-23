@@ -120,7 +120,7 @@ const Contact = () => {
               <div className="flex gap-4 items-baseline">
                 <i class="fa-solid fa-location-dot text-[#6096ba]"></i>
                 <p className="text-[#597081] font-bold">
-                  Cv raman global university , Bhubaneswar , India
+                  Gurugram, Haryana, India
                 </p>
               </div>
               {/* <div className="flex items-baseline gap-4">
